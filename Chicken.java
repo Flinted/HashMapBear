@@ -1,13 +1,12 @@
-public class Salmon implements Edible {
+public class Chicken implements Edible {
   
   private int nutrition;
 
-  public Salmon(int value){
+  public Chicken(int value){
     this.nutrition = value;
   }
-
-  public String swim(){
-    return "swimming";
+  public String cluck(){
+    return "Cluck off";
   }
 
   public int nutrition(){
