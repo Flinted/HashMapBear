@@ -9,7 +9,7 @@ public class Bear{
   public Bear(String name){
     this.name = name;
     this.belly = new ArrayList<Edible>();
-    this.journal = new HashMap();
+    this.journal = new HashMap<String,Integer>();
     journal.put("Monday", 0);
     journal.put("Tuesday", 0);
     journal.put("Wednesay", 0);
